@@ -1,0 +1,15 @@
+[package]
+name         = "rust-lch"
+version      = "0.1.0"
+edition      = "2024"
+authors      = ["r5by <zhongweili@hailong.space>"]
+description  = "Lin-Chung-Han Fast Fourier transform (LCH-FFT) and its implementation for Reed–Solomon erasure codes over binary extension fields."
+repository   = "https://github.com/r5by/rust-lch"
+license      = "BSD-3-Clause"
+license-file = "LICENSE"
+
+[dependencies]
+# (we’ll add any external crates here later, e.g. `bitvec` or `num-traits`)
+
+[dev-dependencies]
+# for testing, e.g. `rand = "0.8"`
